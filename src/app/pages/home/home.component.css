@@ -1,0 +1,8 @@
+.links-container > a{
+    margin-right:3%  !important;
+  }
+
+.avatar svg{
+    width: 100%;
+    height: auto;
+  }
