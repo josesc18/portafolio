@@ -1,0 +1,18 @@
+.profile-img{
+    width: 200px;
+    margin-bottom: 2%;
+}
+
+.profile-img img{
+    width: 100%;
+}
+
+.line{
+    margin-left: 4%;
+    height: 2px;
+    width: 50px;
+    color: #3381EA;
+}
+.skills-section{
+    margin-bottom: 10%;
+}
