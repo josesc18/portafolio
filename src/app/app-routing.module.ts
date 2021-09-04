@@ -5,7 +5,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { ProjectComponent } from './pages/project/project.component';
 
 const routes: Routes = [
-  { path: "", component: HomeComponent, pathMatch: 'full' },
+  { path: "", redirectTo: "/inicio", pathMatch: 'full' },
+  { path: "inicio", component: HomeComponent },
   { path: "acerca-de-mi", component: AboutmeComponent },
   { path: "proyectos", component: ProjectComponent }
 ];

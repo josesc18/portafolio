@@ -8,6 +8,8 @@ import { FooterComponentComponent } from './components/footer-component/footer-c
 import { AboutmeComponent } from './pages/aboutme/aboutme.component';
 import { ProjectComponent } from './pages/project/project.component';
 import { SkillsComponent } from './components/skills/skills.component';
+import { ProjectsComponent } from './components/projects/projects.component';
+import { MobileMenuComponent } from './components/mobile-menu/mobile-menu.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +19,8 @@ import { SkillsComponent } from './components/skills/skills.component';
     AboutmeComponent,
     ProjectComponent,
     SkillsComponent,
+    ProjectsComponent,
+    MobileMenuComponent,
   ],
   imports: [
     BrowserModule,

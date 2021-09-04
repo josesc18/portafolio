@@ -1,0 +1,35 @@
+ul{
+    list-style: none;
+  }
+  a{
+      text-decoration: none;
+      color: rgba(0, 0, 0, 0.55);
+  }
+  a.active{
+    color: #3381EA !important;
+  }
+  .menu-list-mobile{
+      display: none;
+  }
+@media only screen and (max-width: 800px){
+
+    .menu-list-mobile{
+        background-color: #fff;
+        border-top: 1px solid #cecece;
+        position: fixed;
+        bottom: -3%;
+        left: 0;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        width: 100%;
+        padding: 20px 10% 10px 10% ;
+        overflow: hidden;
+    }
+    .menu-list-mobile li{
+        margin: 5px 0 5px 0;
+    }
+    .menu-list-mobile i{
+        font-size: 20px;
+    }
+  }
